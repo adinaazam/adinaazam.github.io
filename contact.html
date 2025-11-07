@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adina Azam — Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Adina Azam</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact">
+    <h2>Contact Me</h2>
+    <p>Use the form below or send an email to <a href="mailto:adinaazam234@gmail.com">Adina Azam</a>.</p>
+
+    <form id="contactForm" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button class="btn" type="submit">Send</button>
+    </form>
+
+    <p class="small">To actually receive messages, use a backend service like Formspree or Netlify Forms.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year-contact"></span> Adina Azam</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>

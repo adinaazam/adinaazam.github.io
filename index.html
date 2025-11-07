@@ -1,84 +1,54 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adina Azam | Portfolio</title>
-  <link rel="icon" type="image/png" href="c:\Users\Adina\Downloads\—Pngtree—a icon_5956817.png">
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Adina Azam — Home</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#f2f3f7" text="#222" link="#0077cc" vlink="#005fa3" alink="#ff6600">
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo"><a href="index.html">Adina Azam</a></h1>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Header Section -->
-    <table bgcolor="#ffffff" width="100%" cellpadding="15">
-        <tr>
-            <td align="center">
-                <h1 style="font-family:Arial;">👩‍💻 Adina Azam</h1>
-                <h3 style="font-family:Arial;">Front-End Developer | Web Designer</h3>
-            </td>
-        </tr>
-    </table>
+  <main class="container hero">
+    <section>
+      <h2>Hello — I’m Adina</h2>
+      <p>I build clean, responsive front-end websites and small web apps. This is a simple portfolio with separate files for Home, About and Contact.</p>
+      <p><a class="btn" href="about.html">Learn more about me</a></p>
+    </section>
 
-    <!-- About Section -->
-    <table bgcolor="#fafafa" width="80%" align="center" cellpadding="15" cellspacing="0">
-        <tr>
-            <td align="center">
-                <h2 style="font-family:Arial;">About Me</h2>
-                <p align="center" width="70%">
-                    Hi! I'm <b>Adina Azam</b>, a passionate front-end developer who loves creating
-                    beautiful, responsive, and user-friendly websites. I enjoy turning creative ideas
-                    into interactive web experiences using HTML, CSS, and JavaScript.
-                </p>
-            </td>
-        </tr>
-    </table>
+    <section class="cards">
+      <article class="card">
+        <h3>Featured Project</h3>
+        <p>Small project description. Replace this with your project text and screenshot.</p>
+      </article>
 
-    <!-- Projects Section -->
-    <br>
-    <table bgcolor="#ffffff" width="80%" align="center" cellpadding="15" cellspacing="0" border="1" bordercolor="#ddd">
-        <tr>
-            <td align="center">
-                <h2 style="font-family:Arial;">My Projects</h2>
-                <table width="80%" cellpadding="10">
-                    <tr align="center">
-                        <td>💡 <b>Image Gallery</b></td>
-                        <td>🧮 <b>Calculator</b></td>
-                    </tr>
-                    <tr align="center">
-                        <td>🌐 <b>Portfolio Website</b></td>
-                        <td>🔢 <b>Periodic Table (HTML Project)</b></td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+      <article class="card">
+        <h3>Skills</h3>
+        <p>HTML • CSS • JavaScript • Github • Wordpress</p>
+      </article>
 
-    <!-- Contact Section -->
-    <br>
-    <table bgcolor="#fafafa" width="80%" align="center" cellpadding="15" cellspacing="0">
-        <tr>
-            <td align="center">
-                <h2 style="font-family:Arial;">Connect With Me</h2>
-                <p>
-                    <a href="https://github.com/adinaazam" target="_blank">GitHub</a> |
-                    <a href="https://www.linkedin.com/in/adina-azam" target="_blank">LinkedIn</a> |
-                    <a href="mailto:adinaazam@gmail.com">Email Me</a>
-                </p>
-            </td>
-        </tr>
-    </table>
+      <article class="card">
+        <h3>Blog</h3>
+        <p>Short excerpt or link to your blog posts.</p>
+      </article>
+    </section>
+  </main>
 
-    <!-- Footer -->
-    <br>
-    <table bgcolor="#0077cc" width="100%" cellpadding="15">
-        <tr>
-            <td align="center">
-                <font color="#ffffff">
-                    © 2025 Adina Azam | Made with ❤️ using only HTML
-                </font>
-            </td>
-        </tr>
-    </table>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Adina Azam — <a href="https://github.com/AdinaAzam" target="_blank">GitHub</a></p>
+    </div>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
